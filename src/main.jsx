@@ -7,7 +7,7 @@ import Home from './routes/Home.jsx';
 import Musicas from './routes/Musicas.jsx';
 import Login from './routes/Login.jsx';
 import Sobre from './routes/Sobre.jsx';
-
+import Cadastro from './routes/Cadastro.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +22,7 @@ const router = createBrowserRouter([
       {path:'/musica',element:<Musicas/>},
       {path:'/login',element:<Login/>},
       {path:'/sobre',element:<Sobre/>},
+      {path: '/cadastro',element:<Cadastro/>}
     ]
 
   }
