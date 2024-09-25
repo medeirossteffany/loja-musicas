@@ -1,0 +1,134 @@
+:root {
+  --default-purple: #5e17eb;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-primary {
+  background: #004aad;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 60px;
+  border: none;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: all 300ms ease;
+}
+
+
+.logo-footer {
+  height: 55px;
+  width: auto;
+}
+
+/* Showcase */
+#showcase {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  animation: slideshow 15s infinite;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: color;
+  padding-top: 80px; /* Para evitar sobreposição com a navbar fixa */
+}
+
+/* Animação de slideshow */
+@keyframes slideshow {
+  0% {
+    background-image: url("../imgs/banner1.jpeg");
+  }
+  33% {
+    background-image: url("../imgs/banner2.jpeg");
+  }
+  66% {
+    background-image: url("../imgs/banner3.jpeg");
+  }
+  100% {
+    background-image: url("../imgs/banner1.jpeg");
+  }
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.showcase-container h2 {
+  font-size: 5rem;
+}
+
+.showcase-container p {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .navbar-container,
+  .footer-content,
+  .footer-info {
+      width: 90%;
+  }
+
+  .navbar-items {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar-item {
+      padding: 10px 0;
+      border-right: none;
+  }
+
+  #showcase .showcase-container h2 {
+      font-size: 3rem;
+  }
+
+  .btn-primary {
+      padding: 10px 40px;
+  }
+
+  .footer-content {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-menu {
+      margin: 20px 0;
+      text-align: center;
+  }
+
+  .footer-info {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-info-items {
+      flex-direction: column;
+  }
+
+  .rights {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .socials {
+      margin-top: 20px;
+  }
+}
+

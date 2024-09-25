@@ -1,0 +1,54 @@
+#fundo-sobre {
+  background-image: url('../imgs/fundo-sobre.jpeg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: auto; 
+  height: 85vh; 
+  display: flex;  
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+}
+
+#sobre-texto {
+  padding: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white; 
+}
+
+#sobre-texto h2 {
+  font-size: 4.2rem;
+  color: white; 
+}
+
+#sobre-texto p {
+  margin: 12px 0;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.766); 
+  margin-bottom: 10px;
+}
+
+.btn-primary-sobre {
+  margin-top: 20px;
+  background: #004aad;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 60px;
+  border: none;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: all 300ms ease;
+}
+
+
+
+
+
+
+
+
