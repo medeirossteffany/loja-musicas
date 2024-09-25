@@ -45,7 +45,7 @@ Para executar o projeto localmente, siga estes passos:
 
 | Nome              | RM        |
 |-------------------|-----------|
-| Milena Garcia      | 555511    |
+| Milena Garcia      | 555111    |
 | Steffany Medeiros  | 556262    |
 | Gustavo Henrique   | 556712    |
 
