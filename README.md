@@ -1,8 +1,51 @@
-# React + Vite
+# UpMusic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site desenvolvido como uma loja de musicas vitual, dedicada à venda de álbuns musicais, oferecendo uma interface amigável e responsiva para os usuários explorarem. O projeto é dividido nas seguintes seções principais:
 
-Currently, two official plugins are available:
+- **Home**: Página inicial que destaca os álbuns mais populares.
+- **Musicas**: Página onde os usuários podem explorar os álbuns disponíveis para compra.
+- **Sobre**: Página que fornece informações sobre a empresa.
+- **Login**: Página para os usuários realizarem o login.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalação
+
+Para executar o projeto localmente, siga estes passos:
+
+1. **Clone o repositório:**
+
+    ```bash
+    git clone https://github.com/medeirossteffany/loja-musicas.git
+    ```
+
+2. **Navegue para o diretório do projeto:**
+
+    ```bash
+    cd upMusic
+    ```
+
+3. **Instale as dependências:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Inicie o servidor de desenvolvimento:**
+
+    ```bash
+    npm run dev
+    ```
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Router**: Biblioteca para roteamento de páginas.
+- **CSS**: Para estilização e design responsivo.
+
+## INTEGRANTES DO PROJETO
+
+| Nome              | RM        |
+|-------------------|-----------|
+| Milena Garcia      | 555511    |
+| Steffany Medeiros  | 556262    |
+| Gustavo Henrique   | 556712    |
+
